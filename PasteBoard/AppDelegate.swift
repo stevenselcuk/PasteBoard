@@ -6,21 +6,17 @@
 //
 
 import Cocoa
-
+import FinderSync
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        // For first install, trigger Extensions screen
+        FIFinderSyncController.showExtensionManagementInterface()
+        // Terminate the application
+        NSApplication.shared.terminate(self)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
-

@@ -8,23 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		0A65B46925F9315600FB2DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65B46825F9315600FB2DD4 /* AppDelegate.swift */; };
-		0A65B46B25F9315600FB2DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65B46A25F9315600FB2DD4 /* ViewController.swift */; };
 		0A65B46D25F9315800FB2DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A65B46C25F9315800FB2DD4 /* Assets.xcassets */; };
-		0A65B47025F9315800FB2DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A65B46E25F9315800FB2DD4 /* Main.storyboard */; };
+		0A65B47F25F9318100FB2DD4 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65B47E25F9318100FB2DD4 /* FinderSync.swift */; };
+		0A65B48425F9318100FB2DD4 /* PasteBoardFinderExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A65B47C25F9318100FB2DD4 /* PasteBoardFinderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A65B48A25F931DD00FB2DD4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A65B48925F931DD00FB2DD4 /* Media.xcassets */; };
+		0A65B48C25F9326200FB2DD4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65B48B25F9326200FB2DD4 /* Utils.swift */; };
+		0ACF11CE25F9399600AAA8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF11CD25F9399600AAA8D4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A65B48225F9318100FB2DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A65B45D25F9315500FB2DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A65B47B25F9318100FB2DD4;
+			remoteInfo = PasteBoardFinderExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A65B48825F9318100FB2DD4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A65B48425F9318100FB2DD4 /* PasteBoardFinderExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A65B46525F9315600FB2DD4 /* PasteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A65B46825F9315600FB2DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A65B46A25F9315600FB2DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A65B46C25F9315800FB2DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A65B46F25F9315800FB2DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A65B47125F9315800FB2DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A65B47225F9315800FB2DD4 /* PasteBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasteBoard.entitlements; sourceTree = "<group>"; };
+		0A65B47C25F9318100FB2DD4 /* PasteBoardFinderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PasteBoardFinderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A65B47E25F9318100FB2DD4 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		0A65B48025F9318100FB2DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A65B48125F9318100FB2DD4 /* PasteBoardFinderExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasteBoardFinderExtension.entitlements; sourceTree = "<group>"; };
+		0A65B48925F931DD00FB2DD4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0A65B48B25F9326200FB2DD4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0ACF11CD25F9399600AAA8D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0A65B46225F9315600FB2DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A65B47925F9318100FB2DD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				0A65B46725F9315600FB2DD4 /* PasteBoard */,
+				0A65B47D25F9318100FB2DD4 /* PasteBoardFinderExtension */,
 				0A65B46625F9315600FB2DD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0A65B46525F9315600FB2DD4 /* PasteBoard.app */,
+				0A65B47C25F9318100FB2DD4 /* PasteBoardFinderExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,13 +95,24 @@
 			isa = PBXGroup;
 			children = (
 				0A65B46825F9315600FB2DD4 /* AppDelegate.swift */,
-				0A65B46A25F9315600FB2DD4 /* ViewController.swift */,
 				0A65B46C25F9315800FB2DD4 /* Assets.xcassets */,
-				0A65B46E25F9315800FB2DD4 /* Main.storyboard */,
 				0A65B47125F9315800FB2DD4 /* Info.plist */,
+				0ACF11CD25F9399600AAA8D4 /* Main.storyboard */,
 				0A65B47225F9315800FB2DD4 /* PasteBoard.entitlements */,
 			);
 			path = PasteBoard;
+			sourceTree = "<group>";
+		};
+		0A65B47D25F9318100FB2DD4 /* PasteBoardFinderExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0A65B47E25F9318100FB2DD4 /* FinderSync.swift */,
+				0A65B48025F9318100FB2DD4 /* Info.plist */,
+				0A65B48125F9318100FB2DD4 /* PasteBoardFinderExtension.entitlements */,
+				0A65B48925F931DD00FB2DD4 /* Media.xcassets */,
+				0A65B48B25F9326200FB2DD4 /* Utils.swift */,
+			);
+			path = PasteBoardFinderExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,15 +125,34 @@
 				0A65B46125F9315600FB2DD4 /* Sources */,
 				0A65B46225F9315600FB2DD4 /* Frameworks */,
 				0A65B46325F9315600FB2DD4 /* Resources */,
+				0A65B48825F9318100FB2DD4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0A65B48325F9318100FB2DD4 /* PBXTargetDependency */,
 			);
 			name = PasteBoard;
 			productName = PasteBoard;
 			productReference = 0A65B46525F9315600FB2DD4 /* PasteBoard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0A65B47B25F9318100FB2DD4 /* PasteBoardFinderExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A65B48525F9318100FB2DD4 /* Build configuration list for PBXNativeTarget "PasteBoardFinderExtension" */;
+			buildPhases = (
+				0A65B47825F9318100FB2DD4 /* Sources */,
+				0A65B47925F9318100FB2DD4 /* Frameworks */,
+				0A65B47A25F9318100FB2DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasteBoardFinderExtension;
+			productName = PasteBoardFinderExtension;
+			productReference = 0A65B47C25F9318100FB2DD4 /* PasteBoardFinderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,6 +164,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					0A65B46425F9315600FB2DD4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0A65B47B25F9318100FB2DD4 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -111,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				0A65B46425F9315600FB2DD4 /* PasteBoard */,
+				0A65B47B25F9318100FB2DD4 /* PasteBoardFinderExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -121,7 +196,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A65B46D25F9315800FB2DD4 /* Assets.xcassets in Resources */,
-				0A65B47025F9315800FB2DD4 /* Main.storyboard in Resources */,
+				0ACF11CE25F9399600AAA8D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A65B47A25F9318100FB2DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A65B48A25F931DD00FB2DD4 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,23 +215,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A65B46B25F9315600FB2DD4 /* ViewController.swift in Sources */,
 				0A65B46925F9315600FB2DD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A65B47825F9318100FB2DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A65B47F25F9318100FB2DD4 /* FinderSync.swift in Sources */,
+				0A65B48C25F9326200FB2DD4 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0A65B46E25F9315800FB2DD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A65B46F25F9315800FB2DD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0A65B48325F9318100FB2DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A65B47B25F9318100FB2DD4 /* PasteBoardFinderExtension */;
+			targetProxy = 0A65B48225F9318100FB2DD4 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A65B47325F9315800FB2DD4 /* Debug */ = {
@@ -269,6 +357,7 @@
 		0A65B47625F9315800FB2DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PasteBoard/PasteBoard.entitlements;
@@ -281,6 +370,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.PasteBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -290,6 +380,7 @@
 		0A65B47725F9315800FB2DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PasteBoard/PasteBoard.entitlements;
@@ -302,8 +393,51 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.PasteBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0A65B48625F9318100FB2DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PasteBoardFinderExtension/PasteBoardFinderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9937MYTBBA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PasteBoardFinderExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.PasteBoard.PasteBoardFinderExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A65B48725F9318100FB2DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PasteBoardFinderExtension/PasteBoardFinderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9937MYTBBA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PasteBoardFinderExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.tabbycatllc.PasteBoard.PasteBoardFinderExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -325,6 +459,15 @@
 			buildConfigurations = (
 				0A65B47625F9315800FB2DD4 /* Debug */,
 				0A65B47725F9315800FB2DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A65B48525F9318100FB2DD4 /* Build configuration list for PBXNativeTarget "PasteBoardFinderExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A65B48625F9318100FB2DD4 /* Debug */,
+				0A65B48725F9318100FB2DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
