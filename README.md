@@ -1,6 +1,6 @@
 <div align="center">
 	<img src="https://imgur.com/h1IugUK.png" width="200" height="200" />
-	<h1><strong>📋 PasteBoard • Right on your Finder's toolbar •</strong> </h1>
+	<h1><strong>📋 PasteBoard • on your menubar + Finder toolbar •</strong> </h1>
 	
 </div>
 <br>
@@ -22,15 +22,17 @@
 
 ## About 📋 PasteBoard
 
-PasteBoard is Finder extension that lists your recently copied text items in your pasteboard. 
+PasteBoard is menubar app with Finder extension that lists your recently copied text items. 
 
 
 ### Main Features:
 
-- One click copy again pasteboard
-
+- Menubar app
+- Finder extension for toolbar
+- Collects copied texts
 - 10 item limit
-
+- Clear PasteBoard
+- One-click copy items on demand
 - Nothing fancy. Keep it simple.
 
 
@@ -40,6 +42,7 @@ PasteBoard is Finder extension that lists your recently copied text items in you
 
 ## Download 🚀
 
+[📋v.1.0.0 App](https://github.com/stevenselcuk/PasteBoard/releases/download/v.1.0.0/PasteBoard.zip) | [📋v.1.0.0 Dmg](https://github.com/stevenselcuk/PasteBoard/releases/download/v.1.0.0/PasteBoard.1.0.dmg)
 
 ## Roadmap 🗺
 
