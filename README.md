@@ -8,7 +8,13 @@
 <p align="center">
 <a href="https://apps.apple.com/us/app/tabbynote-micro-note-taking/id1555858947" target="_blank">
     <img
-      src="https://i.imgur.com/rlD64NN.gif"
+      src="https://raw.githubusercontent.com/stevenselcuk/PasteBoard/main/demo2.gif"
+      height="520"
+      alt="📋 PasteBoard • Right on your menubar •"
+      title="📋 PasteBoard • Right on your menubar toolbar •"
+    />
+	 <img
+      src="https://raw.githubusercontent.com/stevenselcuk/PasteBoard/main/demo1.gif"
       height="520"
       alt="📋 PasteBoard • Right on your Finder's toolbar •"
       title="📋 PasteBoard • Right on your Finder's toolbar •"
