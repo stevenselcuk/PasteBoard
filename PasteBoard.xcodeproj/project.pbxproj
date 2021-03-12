@@ -13,6 +13,7 @@
 		0A65B48425F9318100FB2DD4 /* PasteBoardFinderExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A65B47C25F9318100FB2DD4 /* PasteBoardFinderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A65B48A25F931DD00FB2DD4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A65B48925F931DD00FB2DD4 /* Media.xcassets */; };
 		0A65B48C25F9326200FB2DD4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A65B48B25F9326200FB2DD4 /* Utils.swift */; };
+		0AB29AE525FA8D5F00667C7D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB29AE425FA8D5F00667C7D /* Utils.swift */; };
 		0ACF11CE25F9399600AAA8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF11CD25F9399600AAA8D4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		0A65B48125F9318100FB2DD4 /* PasteBoardFinderExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasteBoardFinderExtension.entitlements; sourceTree = "<group>"; };
 		0A65B48925F931DD00FB2DD4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		0A65B48B25F9326200FB2DD4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0AB29AE425FA8D5F00667C7D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0ACF11CD25F9399600AAA8D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 				0A65B47125F9315800FB2DD4 /* Info.plist */,
 				0ACF11CD25F9399600AAA8D4 /* Main.storyboard */,
 				0A65B47225F9315800FB2DD4 /* PasteBoard.entitlements */,
+				0AB29AE425FA8D5F00667C7D /* Utils.swift */,
 			);
 			path = PasteBoard;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A65B46925F9315600FB2DD4 /* AppDelegate.swift in Sources */,
+				0AB29AE525FA8D5F00667C7D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
