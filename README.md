@@ -1,6 +1,6 @@
 <div align="center">
 	<img src="https://imgur.com/h1IugUK.png" width="200" height="200" />
-	<h1><strong>📋 PasteBoard • Right on your Finder's toolbar •</strong> </h1>
+	<h1><strong>📋 PasteBoard • on your menubar + Finder toolbar •</strong> </h1>
 	
 </div>
 <br>
