@@ -25,7 +25,7 @@
 
 ## About 📋 PasteBoard
 
-PasteBoard is menubar app with Finder extension that lists your recently copied text items. 
+PasteBoard is clipboard history manager app with Finder extension that lists your recently copied text items. 
 
 
 ### Main Features:
