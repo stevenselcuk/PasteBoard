@@ -19,9 +19,6 @@
       alt="📋 PasteBoard • Right on your Finder's toolbar •"
       title="📋 PasteBoard • Right on your Finder's toolbar •"
     /></a>
-
-
-<a href="https://www.producthunt.com/posts/tabbynote-micro-note-taking?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tabbynote-micro-note-taking" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=286446&theme=dark" alt="TabbyNote : Micro Note Taking - Micro note-taking on your menubar | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 	
   </p>
  
