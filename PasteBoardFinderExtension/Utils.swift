@@ -7,21 +7,7 @@
 
 import Cocoa
 
-extension NSMenuItem {
-    struct PasteBoardContext {
-        static var pasteboardItem: String = ""
-    }
-    
-    var pasteBoardContextItem: String {
-        get {
-            return PasteBoardContext.pasteboardItem
-        }
-        set(newValue) {
-            PasteBoardContext.pasteboardItem = newValue
-        }
-    }
-}
-
+// I found on SO. no time for it.
 extension String {
     enum TruncationPosition {
         case head
